@@ -1,0 +1,84 @@
+#left, #right{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+#left{
+    text-align: left;
+}
+#right button, #left button {
+    background-color: rgba(32,33,36,255);
+    color: white;
+    border: none;
+    padding: 15px ;
+    cursor: pointer;
+    margin:0;
+}
+#right button:hover,#left button:hover {
+    text-decoration: underline;
+}
+body{
+    background-color: rgba(32,33,36,255);
+}
+#right{
+    text-align: right;
+    padding-left:50px;
+}
+#right button img {
+    width: 25px; 
+    height: 25px;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+#right button img:hover{
+    box-shadow: 0 0 15px 5px rgb(75,83,83);
+}
+#center img{
+    width: 272px;
+    height: 92px;
+    padding-left: 40%;
+    padding-top: 10%;
+}
+form{
+    padding-left: 475px;
+    padding-top: 25px;
+}
+form input{
+    width: 50%;
+    height:45px;
+    border-radius: 30px;
+    padding-left: 20px;
+    background-color: rgba(77,81,86,255);
+    color: white;
+} 
+#center1{
+    text-align: center;
+    padding-top: 25px;
+}
+#center1 button{
+    padding:5px;
+}
+#l1,#l2{
+    display:inline-block;
+}
+#l1{
+    padding-left: 500px;
+    padding-top: 20px;
+    color: rgb(198, 198, 198);
+}
+#l2{
+    color:#8c8cfe;
+    font-size: 13px;
+    word-spacing: 5px;
+}
+#form input:hover{
+    cursor:text;
+}
+#bottom1{
+    display:flex;
+    height: 10px;
+    width: 100%;
+    background-color:black;
+    align-items: flex-end;
+    
+}
